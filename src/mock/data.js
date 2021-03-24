@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Wilson Hou | Frontend Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio site.', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "Hi, I'm",
+  name: 'Wilson Hou',
+  subtitle: "I'm a full-time student, tinkerer, and frontend developer.",
+  cta: 'Find out more',
 };
 
 // ABOUT DATA
@@ -21,15 +21,24 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://cloud.pdfelement.io/sign/documentDetail/ebaf6fe4648a2a2fd20e9c514062603d/yourDoc', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'symbyx.jpg',
+    title: 'SYMBYX Biome Shopify Store',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'energy-estate.jpg',
+    title: 'Energy Estate Site',
     info: '',
     info2: '',
     url: '',
@@ -38,7 +47,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'Sort Visualiser',
     info: '',
     info2: '',
     url: '',
@@ -46,8 +55,8 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'maze.jpg',
+    title: 'Canvas Maze Game',
     info: '',
     info2: '',
     url: '',
@@ -59,7 +68,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'wilshou@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +77,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/itswilsonhou',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/wilson-hou-665432164/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://www.github.com/wilsonhou',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
